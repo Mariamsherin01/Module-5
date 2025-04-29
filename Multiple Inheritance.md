@@ -32,6 +32,45 @@ To write a Python program to get the name, attendance, and ID of a student and c
 ### PROGRAM
 
 ```
+class Person:  
+    def __init__(self, personName, personAge):  
+        self.name = personName  
+        self.age = personAge  
+  
+    def showName(self):  
+        print(self.name)  
+  
+    def showAge(self):  
+        print(self.age)  
+  
+
+class Student:   
+    def __init__(self, studentpercent):  
+        self.studentpercent = studentpercent  
+  
+    def getpercent(self):  
+        return self.studentpercent  
+  
+  
+class Resident(Person, Student):   
+    def __init__(self, name, age, percent):  
+        Person.__init__(self, name, age)  
+        Student.__init__(self, percent)  
+  
+  
+name=input()
+age=int(input())
+percent=int(input())
+resident1 = Resident(name, age, percent)  
+resident1.showName()  
+resident1.showAge()  
+if resident1.getpercent() > 75:
+    print("Eligible for Module Exam")
+else:
+    print("Not Eligible for Module Exam")
+    
+
+
 
 ```
 
