@@ -37,7 +37,8 @@ print(getattr(det,"userid"))
 ```
 
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/a5af24fa-a86b-42a1-ae26-2d22137f5ef8)
+![image](https://github.com/user-attachments/assets/ed26c6c8-51e4-42c3-b1ac-3030ae856fa9)
+
 
 ### RESULT
 Thus, The Python code to create a class for a person with a parameterized constructor, which will take the `name` and `userid` of the person as parameters and print the `userid` of the person was implemented and executed successfully.
