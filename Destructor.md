@@ -44,7 +44,8 @@ del student
 ```
 
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/3e320115-7ce9-4e2c-a935-bf16016592a1)
+![image](https://github.com/user-attachments/assets/e713e540-45f9-4b12-ad13-a2a95ffd9459)
+
 
 
 ### RESULT
