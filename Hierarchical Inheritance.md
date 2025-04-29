@@ -78,7 +78,8 @@ d.showd()
 
 ### OUTPUT  
 
-![image](https://github.com/user-attachments/assets/756173ec-177e-4ba3-bea8-072126de7009)
+![image](https://github.com/user-attachments/assets/2ea2b851-852a-44cc-af4b-877153a5d392)
+
 
 
 
