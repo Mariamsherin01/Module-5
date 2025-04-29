@@ -62,7 +62,8 @@ obj.display()
 ```
 
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/fce75f85-3a1e-4068-b81c-c843b69072f8)
+![image](https://github.com/user-attachments/assets/fb1598cb-37d6-4e55-8f1c-e78942188fe7)
+
 
 ### RESULT
 Thus, The Python program to get the name, age, and ID of a person and display them using multilevel inheritance was implemented and executed successfully.
