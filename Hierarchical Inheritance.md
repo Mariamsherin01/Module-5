@@ -28,13 +28,59 @@ To write a Python program to get the employee and doctor details and display the
 
 ### PROGRAM
 ```
-
+reg.no: 212222060143
+name: Mariam Sherin
+class Details:
+    def __init__(self):
+        self.eid=eid
+        self.ename=ename
+        self.egen=egen
+        self.ecomp=ecomp
+        self.edept=edept
+        self.did=did
+        self.dname=dname
+        self.dgen=dgen
+        self.dhos=dhos
+        self.ddept=ddept
+class Employee(Details):
+    def showe(self):
+        print("Id: ",self.eid)
+        print("Name: ",self.ename)
+        print("Gender: ",self.egen)
+        print("Company: ",self.ecomp)
+        print("Department: ",self.edept)
+class Doctor(Details):
+    def showd(self):
+        print("Id: ",self.did)
+        print("Name: ",self.dname)
+        print("Gender: ",self.dgen)
+        print("Hospital: ",self.dhos)
+        print("Department: ",self.ddept)
+eid=int(input())
+ename=input()
+egen=input()
+ecomp=input()
+edept=input()
+did=int(input())
+dname=input()
+dgen=input()
+dhos=input()
+ddept=input()
+print("Employee Object")
+e=Employee()
+e.showe()
+print("\nDoctor Object")
+d=Doctor()
+d.showd()
+    
 
 ```
 
 ### OUTPUT  
 
-(Output Screenshot)  
+![image](https://github.com/user-attachments/assets/756173ec-177e-4ba3-bea8-072126de7009)
+
 
 
 ### RESULT
+Thus, The Python program to get the employee and doctor details and display them using hierarchical inheritance. Create a parent (base) class named `Details` and two child (derived) classes named `Employee` and `Doctor` was implemented and executed successfully.
