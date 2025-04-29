@@ -4,7 +4,7 @@
 ---
 
 ### AIM  
-To write a Python program to get the name, attendance, and ID of a student and check if they are eligible for the next module using multiple inheritance. If attendance > 80, the student is eligible; otherwise, not eligible.
+To write a Python program to get the name, attendance, and ID of a student and check if they are eligible for the placement using multiple inheritance. If attendance > 80, the student is eligible; otherwise, not eligible.
 
 ---
 
@@ -65,9 +65,9 @@ resident1 = Resident(name, age, percent)
 resident1.showName()  
 resident1.showAge()  
 if resident1.getpercent() > 75:
-    print("Eligible for Module Exam")
+    print("Eligible for Placement")
 else:
-    print("Not Eligible for Module Exam")
+    print("Not Eligible for Placement")
     
 
 
@@ -76,9 +76,10 @@ else:
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/75045230-7c80-4a42-82c0-7b223ccc66e8)
 
 ### RESULT
-
+Thus, The Python program to get the name, attendance, and ID of a student and check if they are eligible for the placement using multiple inheritance was implemented and executed successfully.
 
 
 
